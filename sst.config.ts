@@ -10,8 +10,8 @@ export default $config({
     };
   },
   async run() {
-    new sst.aws.Nextjs("MyWeb", {      
-      openNextVersion: "3.6.0",
+    new sst.aws.Nextjs("MyWeb", {
+      openNextVersion: "3.6.2",
     });
   },
 });
