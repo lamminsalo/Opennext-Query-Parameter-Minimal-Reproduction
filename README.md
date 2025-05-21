@@ -1,6 +1,6 @@
 ## Minimal reproduction of OpenNext Query Param Malformation bug
 
-Live env: https://d16ppgwd8iy16k.cloudfront.net/
+Live env: https://d3lhw5073ds67z.cloudfront.net
 
 # Reproduction steps
 
@@ -12,9 +12,8 @@ Live env: https://d16ppgwd8iy16k.cloudfront.net/
 
 1. `pnpm create next-app`
 2. `npx sst@latest init`
-3. Added links to search page – one with redirect, one without. 
+3. Added links to search page – one with redirect, one without.
 4. Added redirect to next.config.ts
-
 
 # Issue
 
